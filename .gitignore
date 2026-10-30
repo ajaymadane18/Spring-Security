@@ -1,0 +1,15 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local Spring Boot credentials
+/src/main/resources/application-local.properties
+
+# Maven build
+target/
+
+# Eclipse files
+.classpath
+.project
+.settings/
